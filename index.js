@@ -37,7 +37,7 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["m", "ma", "mad", "made", "made b", "made by", "made by p", "made by pl", "made by pl1", "made by pl1t",];
+const statusMessages = ["made", "made by", "made by pl1t",];
 const statusTypes = [ 'dnd', 'idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
