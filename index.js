@@ -20,7 +20,7 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["🔑made by pl1t💫", "(●'◡'●)", "☔server in bio🗃️",];
+const statusMessages = ["im crezzers child", "made by pl1t",];
 const statusTypes = [ 'idle', 'dnd'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
